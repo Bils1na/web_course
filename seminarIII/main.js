@@ -12,6 +12,6 @@
 // которые ввел пользователь, вывод должен выглядеть так (пример):
 // Результат сложения числе 5 и 2 равен 7.
 
-const a = parseInt(prompt("Enter first number:"))
-const b = parseInt(prompt("Enter second number:"))
-alert(`Sum of numbers $(a) and $(b) = $(a+b)`)
+const a = parseInt(prompt("Enter first number:"));
+const b = parseInt(prompt("Enter second number:"));
+alert(`Sum of numbers $(a) and $(b) = $(a+b)`);

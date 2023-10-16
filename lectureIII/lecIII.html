@@ -9,7 +9,13 @@
     <p>This is an usual HTML document</p>
 
     <script language="JavaScript">
-        alert("Hello, World!")
+        function sum(num1, num2) {
+            let res = num1 + num2;
+            return res;
+        }
+        let p = parseInt(prompt("Enter number 1"));
+        let b = parseInt(prompt("Enter number 2"));
+        alert(sum(p, b));
     </script>
 
     <p>Exit to HTML</p>

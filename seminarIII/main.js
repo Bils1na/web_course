@@ -30,4 +30,18 @@
 // - При нажатии на кнопку “Отмена” вывести в диалоговом окне текст с сообщением 
 // “Ну, вы держитесь там!”.
 
-confirm("Do you live well?") ? alert("So we're going to you!") : alert("Well, be strong!");
+// confirm("Do you live well?") ? alert("So we're going to you!") : alert("Well, be strong!");
+
+
+// Задача 3: перепишите код, используя конструкцию
+// switch -
+// case, запрашивая продукт через диалоговое окно.
+
+switch(confirm("Do you live well?")) {
+    case true:
+        alert("So we're going to you!");
+        break;
+    case false:
+        alert("Well, be strong!");
+        break;
+}

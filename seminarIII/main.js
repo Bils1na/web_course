@@ -70,11 +70,12 @@
 // который записан в четном индексе включая 0.
 
 function getMaxEvenElement (nums) {
-    const result = 0;
+    let result = 0;
 
-    nums.forEach(element => {
-        result = (element > result && element % 2 == 1) ? element : 0;
-    });
+    for (let index = 0; index < nums.length; index++) {
+        result = (nums[index] > result && index % 2 == 0) ? nums[index] : result;
+        
+    }
 
     return result;
 }

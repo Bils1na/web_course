@@ -69,15 +69,31 @@
 // реализовать функцию так, чтобы она возвращала значение большего элемента массива, 
 // который записан в четном индексе включая 0.
 
-function getMaxEvenElement (nums) {
-    let result = Math.min.apply(Math, nums);
+// function getMaxEvenElement (nums) {
+//     let result = Math.min.apply(Math, nums);
 
-    for (let index = 0; index < nums.length; index++) {
-        result = (nums[index] > result && index % 2 == 0) ? nums[index] : result;
-    }
+//     for (let index = 0; index < nums.length; index++) {
+//         result = (nums[index] > result && index % 2 == 0) ? nums[index] : result;
+//     }
 
-    return result;
-}
+//     return result;
+// }
 
-let numbers = [0, 2, 4, 1, 3, 6, 9, 11];
-alert(getMaxEvenElement(numbers));
+// let numbers = [0, 2, 4, 1, 3, 6, 9, 11];
+// alert(getMaxEvenElement(numbers));
+
+
+// Необходимо пользователя попросить ввести температуру в градусах Цельсия,
+// преобразовать введенное пользователем значение в соответствующую температуру
+// в градусах по Фаренгейту и вывести в alert сообщение с текстом:
+//     "Цельсий: {C}, Фаренгейт: {F}"
+// Где вместо { C }
+// и { F }
+// должны быть подставлены соответствующие значения, которые
+// были получены ранее.
+// Формула перевода градусов Цельсия в градусы Фаренгейта:
+//     градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+// Уточнение: пользователь всегда вводит корректное число.
+
+const degrees = Number.parseFloat(prompt("Enter degrees"));
+alert(`C: ${degrees} F: ${(9 / 5) * degrees + 32}`)

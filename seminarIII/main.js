@@ -96,4 +96,4 @@
 // Уточнение: пользователь всегда вводит корректное число.
 
 const degrees = Number.parseFloat(prompt("Enter degrees"));
-alert(`C: ${degrees} F: ${(9 / 5) * degrees + 32}`)
+alert(`C: ${degrees} F: ${Math.round((9 / 5) * degrees + 32) * 10 / 10}`)

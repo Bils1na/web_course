@@ -51,15 +51,33 @@
 // } <
 // /script>
 
-const product = prompt("Enter name of fruit (banans, pears, mandarins and etc.)");
-switch(product) {
-    case "mandarinы":
-        alert("Mandarin is 100 rubles for kilogramm.");
-        break;
-    case "banans":
-    case "pears":
-        alert("Banans and pears are 70 rubles for kilogramm.")
-        break;
-    default:
-        alert("There is not this product.")
+// const product = prompt("Enter name of fruit (banans, pears, mandarins and etc.)");
+// switch(product.toLowerCase()) {
+//     case "mandarinы":
+//         alert("Mandarin is 100 rubles for kilogramm.");
+//         break;
+//     case "banans":
+//     case "pears":
+//         alert("Banans and pears are 70 rubles for kilogramm.")
+//         break;
+//     default:
+//         alert("There is not this product.")
+// }
+
+
+// Функция getMaxEvenElement принимает массив с целыми числами, необходимо 
+// реализовать функцию так, чтобы она возвращала значение большего элемента массива, 
+// который записан в четном индексе включая 0.
+
+function getMaxEvenElement (nums) {
+    const result = 0;
+
+    nums.forEach(element => {
+        result = (element > result && element % 2 == 1) ? element : 0;
+    });
+
+    return result;
 }
+
+let numbers = [0, 2, 4, 1, 3, 6, 9, 11];
+alert(getMaxEvenElement(numbers));

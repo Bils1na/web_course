@@ -51,18 +51,15 @@
 // } <
 // /script>
 
-const product = "banans";
+const product = prompt("Enter name of fruit (banans, pears, mandarins and etc.)");
 switch(product) {
-    case "mandarin":
+    case "mandarinы":
         alert("Mandarin is 100 rubles for kilogramm.");
         break;
     case "banans":
-        alert("Banans and pears are 70 rubles for kilogramm.")
-        break;
     case "pears":
         alert("Banans and pears are 70 rubles for kilogramm.")
         break;
     default:
         alert("There is not this product.")
-        break;
 }

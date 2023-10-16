@@ -37,11 +37,32 @@
 // switch -
 // case, запрашивая продукт через диалоговое окно.
 
-switch(confirm("Do you live well?")) {
-    case true:
-        alert("So we're going to you!");
+// <script >
+// let product = "бананы";
+
+// if (product == "мандарины") {
+//     alert('Мандарины стоят 100 руб/кг.');
+// } else if (product == "бананы") {
+//     alert('Бананы и груши стоят 70 руб/кг.');
+// } else if (product == "груши") {
+//     alert('Бананы и груши стоят 70 руб/кг.');
+// } else {
+//     alert('Нет такого продукта.');
+// } <
+// /script>
+
+const product = "banans";
+switch(product) {
+    case "mandarin":
+        alert("Mandarin is 100 rubles for kilogramm.");
         break;
-    case false:
-        alert("Well, be strong!");
+    case "banans":
+        alert("Banans and pears are 70 rubles for kilogramm.")
+        break;
+    case "pears":
+        alert("Banans and pears are 70 rubles for kilogramm.")
+        break;
+    default:
+        alert("There is not this product.")
         break;
 }

@@ -1,0 +1,18 @@
+html {
+    background-color: cornflowerblue;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+.dino {
+    color: darkgreen;
+}
+
+.bobre {
+    color: brown;
+}

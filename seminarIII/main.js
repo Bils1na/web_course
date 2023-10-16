@@ -30,4 +30,4 @@
 // - При нажатии на кнопку “Отмена” вывести в диалоговом окне текст с сообщением 
 // “Ну, вы держитесь там!”.
 
-const answer = (confirm("Do you live well?") == 1) ? "So we're going to you!" : "Well, be strong!";
+const answer = (confirm("Do you live well?") == 1) ? alert("So we're going to you!") : alert("Well, be strong!");

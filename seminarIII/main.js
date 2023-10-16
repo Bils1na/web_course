@@ -14,4 +14,4 @@
 
 const a = parseInt(prompt("Enter first number:"));
 const b = parseInt(prompt("Enter second number:"));
-alert(`Sum of numbers $(a) and $(b) = $(a+b)`);
+alert(`Sum of numbers ${a} and ${b} = ${a+b}`);

@@ -1,0 +1,17 @@
+https://site.ru
+me <-------> webserver (nginx) <--------> index.html
+me <-------> webserver (nginx) <--------> css, js, img, fonts ...
+
+https://site.ru/about
+me <-------> webserver (nginx) <--------> about.html
+me <-------> webserver (nginx) <--------> css, js, img, fonts ...
+
+https://site.ru (server side rendering)
+me <----------> webserver (nginx) <---------> php (собирает html) <-------> db
+me <-------> webserver (nginx) <--------> css, js, img, fonts ...
+
+https://site.ru (client side rendering)
+me <-------> webserver (nginx) <--------> index.html
+me <-------> webserver (nginx) <--------> css, js
+js <-------> webserver (nginx) <--------> php (вернет данные) <--------> db
+me <-------> webserver (nginx) <--------> css, js, img, fonts ...

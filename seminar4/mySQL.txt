@@ -1,0 +1,25 @@
+-- create
+CREATE TABLE employee (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO employee(name, dept) VALUES ('Clark', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Dave', 'Accounting');
+INSERT INTO employee(name, dept) VALUES ('Ava', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Chris', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Dean', 'Accounting');
+INSERT INTO employee(name, dept) VALUES ('Alisa', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Sam', 'Sales');
+INSERT INTO employee(name, dept) VALUES ('Diana', 'Accounting');
+INSERT INTO employee(name, dept) VALUES ('Anna', 'Sales');
+
+-- fetch
+-- SELECT * FROM employee WHERE dept = 'Sales' && id > 2;
+-- SELECT id, name FROM employee WHERE dept = 'Sales' && id > 2;
+SELECT id, name AS full_name 
+FROM employee 
+WHERE dept = 'Sales' && id > 2 && name LIKE "%A%" OR name = "Dave"
+ORDER BY name DESC;

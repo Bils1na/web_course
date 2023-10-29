@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- 
+        XML - eXtensible Markup Language
+        Расширяемый язык разметки. 
+        Используется ждя хранения и передачи данных.
+
+        JSON - JavaScript Object Notation
+        формат данных
+
+        SOAP - Simple Object Access Protocol 
+        протокол доступа к объектам 
+
+        REST - Representational State transfer
+        передача репрезентативного состояния или
+        передача "самоописываемого" состояния
+        архитектурный стиль
+        
+        API - Application Programming Interface 
+        програмный интерфейс
+
+        https://site.ru/
+        https://site.ru/about
+        
+        GET - https://site.ru/api/users - получить список пользователей
+        POST - https://site.ru/api/users - создать новго пользователя
+        GET - https://site.ru/api/users/123 - получить пользователя с id:123
+        PATCH - https://site.ru/api/users/123 - смена пользователя
+        PUT - https://site.ru/api/users/123 - смена пользователя
+        DELETE - https://site.ru/api/users/123 - удалит пользователя
+
+        REST client extenstion VSCode
+        https://reqres.in
+        Postman - приложение для работы с запросами
+
+-------------------------------------------------------------------------------
+        XML        JSON
+
+        GET - https://site.ru/api/users/123
+      me <-> srver (nginx) <-> php <-> db
+
+      $user = [
+        "id" => 123,
+        "firstName" => "Pavel",
+        "age" => 33,
+      ]
+
+      "123, Pavel, 33"
+      "id=123, firstName=Pavel, age=33"
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <user>
+        <id>123</id>
+        <firstName>Pavel</firstName>
+        <age>33</age>
+        <phones>
+            <phone>123</phone>
+            <phone>124</phone>
+            <phone>125</phone>
+        </phones>
+    </user>    
+
+    {"id":123, "firstName":"Pavel", "age":33}
+
+
+    -->
+    <button class="pagination" data-page="1">Page 1</button>
+    <button class="pagination" data-page="2">Page 2</button>
+    <div id="app"></div>
+</body>
+</html>

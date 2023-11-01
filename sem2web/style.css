@@ -2,13 +2,13 @@ a {
     text-decoration: none;
 }
 
-.menu {
+.menu__link {
     color: cornflowerblue;
     font-size: 16px;
     line-height: 20px;
 }
 
-h1 {
+.head {
     color: #222222;
     font-size: 28px;
     line-height: 36px;
@@ -23,7 +23,7 @@ h1 {
     color: #7D7987;
 }
 
-.title_index {
+.head2 {
     color: coral;
     font-style: normal;
     font-weight: 700;
@@ -43,6 +43,7 @@ h1 {
     border-radius: 15px;
     font-size: 14px;
     line-height: 30px;
+    box-sizing: border-box;
 }
 
 .button_request {

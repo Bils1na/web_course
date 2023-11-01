@@ -8,14 +8,14 @@ a {
     line-height: 20px;
 }
 
-.head {
+.content__head {
     color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
 }
 
-.text {
+.content__text {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -23,7 +23,7 @@ a {
     color: #7D7987;
 }
 
-.head2 {
+.content__head2 {
     color: coral;
     font-style: normal;
     font-weight: 700;

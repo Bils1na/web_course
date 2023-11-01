@@ -31,3 +31,24 @@ h1 {
 .heading_about {
     color: orange;
 }
+
+p a {
+    color: violet; /* inherit */
+}
+
+h1, h3, p {
+    text-align: center;
+    color: blue !important;
+}
+    h1 {
+        font-family: Verdana;
+        color: green;
+}
+    h3 {
+        font-family: Arial;
+}
+    p {
+        font-size: 12px;
+}
+
+

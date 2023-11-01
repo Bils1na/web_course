@@ -1,0 +1,33 @@
+p {
+    color: green;
+}
+
+h2 {
+    color: darkblue;
+}
+
+#first {
+    background: gray;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+h1 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.title {
+    background-color: gray;
+}
+
+.heading {
+    color: darkblue;
+}
+
+.heading_about {
+    color: orange;
+}

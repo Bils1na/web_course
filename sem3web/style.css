@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Open Sans;
 }
 
 body {
@@ -14,7 +15,6 @@ body {
 
 .header__link {
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -29,21 +29,44 @@ body {
 
 .heading4 {
     margin-bottom: 10px;
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
 }
 
 .heading {
     margin-bottom: 40px;
+    color: var(--ffffff, #FFF);
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
 }
 
 .text {
     margin-bottom: 50px;
+    color: var(--ffffff, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.top__content_buttons {
+    display: flex;
 }
 
 .top__content_button {
     padding: 15px 30px;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
 }
 
 .logos {
     padding-top: 99px;
     padding-bottom: 99px;
 }
+

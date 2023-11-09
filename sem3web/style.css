@@ -55,11 +55,11 @@ body {
     line-height: 160%;
 }
 
-.top__content_buttons {
+.top__content__buttons {
     display: flex;
 }
 
-.top__content_button {
+.top__content__button {
     padding: 15px 30px;
     border-radius: 5px;
     background: var(--3-a-68-b-8, #3A68B8);

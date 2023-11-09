@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 42px;
+    display: flex;
+}
+
+.main {
+    padding-top: 42px;
+    padding-bottom: 164px;
+    display: flex;
+}
+
+.heading {
+    margin-bottom: 17px;
+}
+
+.main__content__text {
+    margin-bottom: 37px;
+}
+
+.brands {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}

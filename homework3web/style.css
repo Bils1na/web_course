@@ -15,12 +15,12 @@
     display: flex;
 }
 
-.heading {
-    margin-bottom: 17px;
-}
-
 .main__content__text {
     margin-bottom: 37px;
+}
+
+.heading {
+    margin-bottom: 17px;
 }
 
 .brands {

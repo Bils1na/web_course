@@ -5,12 +5,20 @@
 }
 
 body {
-    background: black;
+    background: var(--020-a-18, #020A18);
+}
+
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
 }
 
 .header {
     padding-top: 33px;
     padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .header__link {
@@ -25,6 +33,9 @@ body {
 .top {
     padding-top: 160px;
     padding-bottom: 98px;
+    display: flex;
+    justify-content: center;
+    gap: 128px;
 }
 
 .heading4 {
@@ -68,5 +79,8 @@ body {
 .logos {
     padding-top: 99px;
     padding-bottom: 99px;
+    display: flex;
+    justify-content: center;
+    gap: 71px;
 }
 

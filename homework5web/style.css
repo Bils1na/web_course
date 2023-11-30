@@ -31,10 +31,6 @@
     font-weight: 400;
 }
 
-body {
-    background: #FAFAFA;
-}
-
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -230,6 +226,7 @@ body {
 .info {
     padding-top: 92px;
     padding-bottom: 150px;
+    background: #FAFAFA;
 }
 
 .info .info__content {

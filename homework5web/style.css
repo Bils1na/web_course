@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face { 
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face { 
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face { 
+    font-family: "Gilroy-Regular";
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.logo__text__black {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo__text__orange {
+    color: #F25822;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header__menu__home {
+    color: #F25822;
+    font-family: "Gilroy-SemiBold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header__menu__link {
+    color: #000;
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.main {
+    padding-top: 44px;
+    padding-bottom: 164px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__content__text {
+    margin-bottom: 37px;
+}
+
+.heading {
+    margin-bottom: 17px;
+
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #888;
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main__content__buttons {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.main__content__button__start {
+    color: white;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding: 15px 35px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+
+.main__content__button__watch {
+    color: #AAA;
+    font-family: "Gilroy-Bold";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.brands {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.whitebox {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.articles .articles__item .articles__container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.articles .articles__item .articles__container .articles__img {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.articles .articles__item .articles__container .articles__content {
+    margin-bottom: 25px;
+}
+
+.articles .articles__item .articles__container .articles__reference {
+    margin-bottom: 25px;
+}
+
+.articles .articles__item .articles__container .articles__content .articles__heading {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 17px;
+}
+
+.articles .articles__item .articles__container .articles__content .articles__text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.articles .articles__item .articles__container .articles__reference .articles__button {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+}

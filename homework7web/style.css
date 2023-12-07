@@ -43,16 +43,11 @@ img {
     padding-right: calc(50% - 800px);
 
     display: flex;
+    align-items: center;
 }
 
 .top .top__img {
     width: 50%;
-}
-
-.top .top__title {
-    padding-top: 290px;
-    padding-bottom: 381px;
-
 }
 
 .top .top__title .title__text {

@@ -10,25 +10,22 @@
 
 .header {
     background-color: #222;
+    padding-top: 18px;
+    padding-bottom: 18px;
 
     display: flex;
     justify-content: space-between;
 }
 
 .header .header__logo {
-    padding-top: 18px;
-    padding-bottom: 19px;
-
     display: flex;
     align-items: center;
     gap: 41px;
 }
 
 .header .header__menu {
-    padding-top: 26px;
-    padding-bottom: 20px;
-
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 

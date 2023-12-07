@@ -173,7 +173,6 @@ img {
 .featured .featured__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 350px);
-    /* grid-template-rows: repeat(2, 1fr); */
     gap: 25px;
 }
 
@@ -187,6 +186,7 @@ img {
     padding: 16px 24px;
     display: flex;
     flex-direction: column;
+    text-align: left;
     gap: 16px;
 }
 
@@ -206,7 +206,7 @@ img {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    width: 314px;
+    
 }
 
 .featured .featured__grid .featured__grid__item .grid__content .grid__price {

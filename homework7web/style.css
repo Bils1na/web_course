@@ -243,4 +243,31 @@ img {
         padding-left: calc(50% - 385px);
         padding-right: calc(50% - 385px);
     }
+
+    .top .top__title .title__text .title__text1 {
+        color: #222;
+        font-family: Lato;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .top .top__title .title__text .title__text2 {
+        color: #222;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .top .top__title .title__text .title__text3 {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    } 
 }

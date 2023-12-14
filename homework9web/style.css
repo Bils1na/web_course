@@ -422,6 +422,22 @@ img {
     line-height: normal;
 }
 
+.footer .footer__social .social__ref {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.footer .footer__social .social__ref:hover {
+    background-color: #F16D7F;
+}
+
+.footer .footer__social .social__ref .img:hover {
+    fill: #FFFFFF;
+    background: #F16D7F;
+}
+
 @media (max-width: 1024px) {
     .center {
         padding-left: calc(50% - 367px);

@@ -237,6 +237,17 @@ img {
     border: 1px solid #FF6A6A;
 }
 
+.featured .button:active {
+    background-color: #FF6A6A;
+
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .sale {
     display: flex;
     justify-content: space-around;

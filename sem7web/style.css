@@ -182,6 +182,11 @@ body {
 }
 
 @media (max-width: 767px) {
+
+    img {
+        max-width: 100%;
+    }
+
     .center {
         padding-left: 17px;
         padding-right: 17px;

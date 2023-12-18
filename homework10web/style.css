@@ -237,7 +237,7 @@ img {
     border: 1px solid #FF6A6A;
 }
 
-.featured .button:active {
+.featured .button:hover {
     background-color: #FF6A6A;
 
     color: #FFF;
@@ -382,6 +382,12 @@ img {
     border-left-width: 0;
 }
 
+.subscribe .subscribe__button .subscribe__form .form__button:hover {
+    background-color: white;
+    color: #E05C6E;
+    border: 1px solid #E05C6E;
+}
+
 .subscribe .subscribe__button .subscribe__form .form__input {
     background-color: #E1E1E1;;
     border-radius: 25px;
@@ -429,13 +435,12 @@ img {
     border: none;
 }
 
-.footer .footer__social .social__ref:hover {
-    background-color: #F16D7F;
+.footer .footer__social .social__ref:hover .path1 {
+    fill: #F16D7F;
 }
 
-.footer .footer__social .social__ref .img:hover {
+.footer .footer__social .social__ref:hover .path2 {
     fill: #FFFFFF;
-    background: #F16D7F;
 }
 
 @media (max-width: 1024px) {

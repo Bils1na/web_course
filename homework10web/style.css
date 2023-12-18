@@ -50,6 +50,10 @@ img {
     color: white;
 }
 
+.push:active svg path {
+    fill: #aaa9a9;
+}
+
 .top {
     background-color: #F1E4E6;
     padding-left: calc(50% - 800px);

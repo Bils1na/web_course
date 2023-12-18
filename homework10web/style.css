@@ -229,6 +229,11 @@ img {
 
 .hover_button {
     position: absolute;
+    display: flex;
+    gap: 11px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(33, 22, 22, 0.0);
 }
 
 .featured .featured__grid .featured__grid__item .grid__content {

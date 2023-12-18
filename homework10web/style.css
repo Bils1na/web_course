@@ -33,8 +33,21 @@ img {
     gap: 25px;
 }
 
-.cart {
+.header .header__menu .cart {
     margin-left: 17px;
+}
+
+.header .header__menu:last-child .cart:before {
+    content: "1";
+    border-radius: 50%;
+    background-color: #F16D7F;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    color: white;
 }
 
 .top {
@@ -487,6 +500,14 @@ img {
         line-height: normal;
     } 
 
+    .catalog {
+        gap: 20px;
+    }
+
+    .featured .featured__grid {
+        gap: 17px;
+    }
+
     .featured .button {
         margin-bottom: 65px;
     }
@@ -579,6 +600,7 @@ img {
     .catalog {
         grid-template-columns: repeat(1 , 300px);
         justify-content: center;
+        gap: 32px;
     }
 
     .big {
@@ -595,6 +617,7 @@ img {
 
     .featured .featured__grid {
         justify-content: center;
+        gap: 17px;
     }
 
     .featured .button {

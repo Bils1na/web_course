@@ -428,6 +428,12 @@ img {
     line-height: normal;
 }
 
+.footer .footer__social { 
+    display: flex;
+    font-display: row;
+    gap: 7px;
+}
+
 .footer .footer__social .social__ref {
     width: 32px;
     height: 32px;
@@ -480,6 +486,35 @@ img {
         font-weight: 700;
         line-height: normal;
     } 
+
+    .featured .button {
+        margin-bottom: 65px;
+    }
+
+    .sale {
+        flex-wrap: wrap;
+        padding-left: 204px;
+        padding-right: 204px;
+    }
+
+    .sale .sale__item {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .subscribe {
+        flex-wrap: wrap;
+    }
+
+    .subscribe .subscribe__quote {
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+    .subscribe .subscribe__button {
+        padding-bottom: 140px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -561,10 +596,48 @@ img {
     .featured .featured__grid {
         justify-content: center;
     }
+
+    .featured .button {
+        margin-bottom: 96px;
+    }
+    
+    .subscribe .subscribe__button .subscribe__form .form__button {
+        width: 95px;
+    }
+
+    .subscribe .subscribe__button .subscribe__form .form__input {
+        width: 245px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer .footer__social {
+        padding-top: 43px;
+        padding-bottom: 40px;
+    }
+
+    .footer .footer__rights {
+        padding-top: 0;
+        padding-bottom: 9px;
+    }
 }
 
 @media (max-width: 320px) {
     .featured .featured__grid {
         grid-template-columns: repeat(auto-fit, 320px);
+    }
+
+    .subscribe .subscribe__button {
+        text-align: center;
+    }
+    
+    .subscribe .subscribe__button .subscribe__form .form__button {
+        width: 80px;
+    }
+
+    .subscribe .subscribe__button .subscribe__form .form__input {
+        width: 200px;
     }
 }

@@ -203,6 +203,34 @@ img {
     background-color: #F8F8F8;
 }
 
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover {
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity  1s ease-in-out;
+}
+
+.wrapper:hover .hover {
+    opacity: 1;
+}
+
+.hover_img {
+    position: relative;
+}
+
+.hover_button {
+    position: absolute;
+}
+
 .featured .featured__grid .featured__grid__item .grid__content {
     padding: 16px 24px;
     display: flex;
